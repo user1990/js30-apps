@@ -228,8 +228,9 @@
             "never"
         ], // require or disallow padding inside computed properties (fixable)
         "consistent-this": [
-            2,
-            "self"
+            0,
+            "self",
+			"this"
         ], // enforces consistent naming when capturing the current execution context
         "eol-last": 2, // enforce newline at the end of file, with no multiple empty lines (fixable)
         "func-names": 0, // require function expressions to have a name
